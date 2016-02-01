@@ -1,11 +1,16 @@
 /* Variable */
-@import url(https://fonts.googleapis.com/css?family=Megrim);
+'@import url(https://fonts.googleapis.com/css?family=Megrim);
 @-moz-viewport {
   width: device-width;
   scale: 1;
 }
 
 @-ms-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-o-viewport {
   width: device-width;
   scale: 1;
 }
@@ -22,6 +27,7 @@
 
 html {
   box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -38,9 +44,7 @@ img {
 }
 
 .icon {
-  color: #ef1b26;
   font-size: 10em;
-  padding: .5em .25em .25em;
 }
 
 .grid {
@@ -53,30 +57,25 @@ img {
   display: -ms-flexbox;
   -ms-flex-flow: row wrap;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
-  -ms-flex-align: end;
-      align-items: flex-end;
+  align-items: flex-end;
 }
 
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 .grid-stretch {
   -webkit-align-items: stretch;
   -ms-align-items: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+  align-items: stretch;
 }
 
 .opera-only :-o-prefocus, .grid {
@@ -490,15 +489,13 @@ img {
 .content-fill {
   -ms-flex-grow: 2;
   -webkit-flex-grow: 2;
-  -ms-flex-positive: 2;
-      flex-grow: 2;
+  flex-grow: 2;
 }
 
 .content-shrink {
   -ms-align-self: center;
   -webkit-align-self: center;
-      -ms-flex-item-align: center;
-          align-self: center;
+  align-self: center;
 }
 
 html {

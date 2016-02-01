@@ -26,6 +26,10 @@ img {
 	display: block;
 }
 
+.icon {
+ @include icon-style;
+}
+
 
 
 
