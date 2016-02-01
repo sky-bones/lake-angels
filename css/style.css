@@ -1,3 +1,4 @@
+/* Variable */
 @import url(https://fonts.googleapis.com/css?family=Megrim);
 @-moz-viewport {
   width: device-width;
@@ -30,7 +31,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  background-color: #D5DCD8;
+  background-color: #d5dcd8;
 }
 
 *, *:before, *:after {
@@ -495,7 +496,7 @@ img {
 
 html {
   font: normal 100%/1.5 'Megrim', serif;
-  color: white;
+  color: #19211d;
 }
 
 @media only screen and (min-width: 60em) {
